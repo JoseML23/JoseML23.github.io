@@ -12,7 +12,7 @@ function App() {
           Haz clic en el botón para descargar la APK de <span className="font-semibold text-white">APKminera</span>.
         </p>
         <a
-          href="URL_DE_TU_APK.apk"
+          href="/MineraSalud.apk"
           download
           className="btn btn-primary w-full text-lg normal-case text-white"
         >
