@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base:'https://JosiMendoza.github.io/APKminera/',
+  base:'https://JoseML23.github.io/APKminera/',
 })
