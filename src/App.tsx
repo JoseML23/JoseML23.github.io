@@ -9,7 +9,7 @@ function App() {
         />
         <h1 className="text-3xl font-bold mb-4 text-white">Descarga nuestra App</h1>
         <p className="mb-8 text-gray-300">
-          Haz clic en el botón para descargar la APK de <span className="font-semibold text-white">APKminera</span>.
+          Haz clic en el botón para descargar la APK de <span className="font-semibold text-white">MineraSalud</span>.
         </p>
         <a
           href="/MineraSalud.apk"
