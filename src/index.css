@@ -1,6 +1,5 @@
 @import "tailwindcss";
-
-
+@plugin "daisyui";
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -18,19 +17,20 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #ffffff;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #ffffff;
 }
 
 body {
+  background-color: #3d3c3c;
+  color: #fff;
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -68,4 +68,17 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(59,130,246,0.7), 0 0 0 8px rgba(59,130,246,0.2);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(59,130,246,0.7), 0 0 0 16px rgba(59,130,246,0.1);
+  }
+}
+
+.glow-animate {
+  animation: glow 2s infinite;
 }
